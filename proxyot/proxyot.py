@@ -3,9 +3,8 @@ import json
 
 class Client():
     """Creates a client for ProxyOT to access the values of your points and lists."""
-
     def __init__(self, username, password):
-        self.server = 'http://localhost:1990/'
+        self.server = 'https://api.proxyot.com/'
         r = requests.get(f'{self.server}login')
         r = requests.post(f'{self.server}login', cookies=r.cookies, data={
                           'csrf_token': r.text, 'username': username, 'password': password})
