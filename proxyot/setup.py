@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=['requests', 'json'],
+    install_requires=['requests'],
     keywords=['python', 'proxyot', 'iot'],
     classifiers=[
         "Development Status :: 1 - Planning",
