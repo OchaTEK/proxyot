@@ -7,3 +7,4 @@ authors = [
 ]
 description = "A module to get point and list values from ProxyoT.com"
 license = {text = "MIT License"}
+readme = "README.md"
