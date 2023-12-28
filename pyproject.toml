@@ -1,0 +1,9 @@
+[project]
+name = "proxyot"
+version = "0.0.1"
+dependencies = ["requests", "json"]
+authors = [
+  {name = "Mohammed Alnuaimi", email = "mohammed@ochatek.com"}
+]
+description = "A module to get point and list values from ProxyoT.com"
+license = {text = "MIT License"}
