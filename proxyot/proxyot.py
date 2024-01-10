@@ -16,7 +16,7 @@ class Client():
         if j['error']:
             raise Exception(j['error'])
         else:
-            return j['value']
+            return value
     def get_point(self, path):
         """Return the current value of a point."""
         p = requests.post(
